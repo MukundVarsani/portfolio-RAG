@@ -215,27 +215,5 @@ async function ask(userQuestion) {
 // await ask("Tell me about Mukund's internship");
 // await ask("Is Mukund open to remote work?");
 
-async function startChat() {
-  console.log("💬 Ask anything (type 'exit' to quit)\n");
-
-  while (true) {
-    const question = await new Promise((resolve) => {
-      rl.question("You: ", resolve);
-    });
-
-    if (question.toLowerCase() === "exit") {
-      console.log("👋 Exiting...");
-      rl.close();
-      process.exit(0);
-    }
-
-    try {
-      const response = await ask(question);
-      console.log("AI:", response, "\n");
-    } catch (err) {
-      console.error("❌ Error:", err.message);
-    }
-  }
-}
-
-startChat();
+// Export for API usage
+export { ask };

@@ -438,6 +438,5 @@ async function deleteAllDataFromIndex(params) {
     console.log(`\n🎉 Done! Deleted all data from index: ${process.env.PINECONE_INDEX_NAME}.`);
 }
 
-// Run the script
-run().catch(console.error);
-// deleteAllDataFromIndex().catch(console.error); 
+// Export for API usage
+export { run as ingestData, deleteAllDataFromIndex }; 
