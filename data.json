@@ -1,0 +1,493 @@
+{
+  "meta": {
+    "version": "3.1.0",
+    "last_updated": "2026-04-12",
+    "candidate": "Mukund Varsani",
+    "purpose": "Highly detailed personal knowledge base for RAG-based AI assistant, resume generation, and interview storytelling",
+    "note": "Everything is written in first-person, deeply descriptive, and focused on real experiences, challenges, and learnings."
+  },
+
+  "personal_info": {
+    "category": "personal_info",
+    "subcategory": "general",
+    "full_name": "Mukund Varsani",
+    "location": "Ahmedabad, Gujarat, India",
+    "email": "varsanimukund56@gmail.com",
+    "mobile": "+919879074458",
+    "linkedin": "",
+    "github": "",
+    "title": "Flutter Developer",
+    "objective": "I am a Flutter developer with 2+ years of hands-on experience building cross-platform mobile applications, including production apps published on both the App Store and Google Play Store. I enjoy solving real-world problems through scalable architecture and clean code. My journey has been driven by curiosity — whether it is building multi-role systems, integrating real-time communication, exploring AI automation, or finding creative solutions when traditional approaches fail. I am eager to work on impactful products where I can take ownership, continuously learn, and contribute to meaningful user experiences.",
+    "personality": "I am a fast learner who enjoys going deep into problems instead of just fixing them on the surface. I like understanding the root cause and building proper solutions. I take ownership of my work and enjoy building features end-to-end — from UI to backend integration. I am also comfortable stepping outside my domain when needed, like working with C# for native integrations or experimenting with AI tools like n8n. I tend to think unconventionally — when something does not work the obvious way, I look for creative workarounds.",
+    "availability": "Available for full-time roles",
+    "preferred_roles": [
+      "Flutter Developer",
+      "Mobile App Developer",
+      "Full-Stack Developer"
+    ],
+    "open_to_remote": true
+  },
+
+  "skills": [
+    {
+      "category": "skills",
+      "subcategory": "languages",
+      "name": "Dart",
+      "proficiency": "expert",
+      "years_of_experience": 2,
+      "context": "Dart is my primary language. I use it daily for Flutter development. I am very comfortable with async/await, streams, generics, and writing clean, scalable Dart code following best practices."
+    },
+    {
+      "category": "skills",
+      "subcategory": "languages",
+      "name": "JavaScript",
+      "proficiency": "intermediate",
+      "years_of_experience": 2,
+      "context": "I use JavaScript primarily for Node.js backend development and React-based frontends. I am comfortable with ES6+, async/await, REST API building, WebSocket servers, and working with npm packages."
+    },
+    {
+      "category": "skills",
+      "subcategory": "languages",
+      "name": "Python",
+      "proficiency": "beginner",
+      "years_of_experience": 1,
+      "context": "I have basic Python knowledge. I have used it for small scripts and exploring AI/ML libraries. I am actively learning it more deeply."
+    },
+    {
+      "category": "skills",
+      "subcategory": "languages",
+      "name": "C#",
+      "proficiency": "beginner",
+      "years_of_experience": 1,
+      "context": "I used C# to build a native Windows DLL for extracting active browser URLs and integrating it with a Node.js desktop application. I learned just enough to solve a problem that could not be solved any other way."
+    },
+    {
+      "category": "skills",
+      "subcategory": "frameworks_and_libraries",
+      "name": "Flutter",
+      "proficiency": "expert",
+      "years_of_experience": 2,
+      "context": "Flutter is my core skill. I have built multiple production apps from scratch and published them on both App Store and Google Play Store. I am experienced with state management (BLoC, GetX, Provider, Cubit), custom widgets, platform-specific integrations (HealthKit, Health Connect), animations, and performance optimization."
+    },
+    {
+      "category": "skills",
+      "subcategory": "frameworks_and_libraries",
+      "name": "BLoC / Cubit",
+      "proficiency": "expert",
+      "years_of_experience": 2,
+      "context": "I prefer BLoC for large-scale Flutter apps because it enforces a clean separation between UI and business logic. I have used it in Playscheme and Digital Pharmacy Platform. I use Cubit when I need something lighter and faster to implement."
+    },
+    {
+      "category": "skills",
+      "subcategory": "frameworks_and_libraries",
+      "name": "GetX",
+      "proficiency": "expert",
+      "years_of_experience": 1,
+      "context": "I use GetX for projects that need faster development cycles. It handles state management, navigation, and dependency injection in one package. I used it in the Future Capsule app."
+    },
+    {
+      "category": "skills",
+      "subcategory": "frameworks_and_libraries",
+      "name": "Node.js",
+      "proficiency": "intermediate",
+      "years_of_experience": 2,
+      "context": "I use Node.js for building backend APIs, WebSocket servers, cron-based scheduling systems, and native integrations. I am comfortable with Express.js, middleware design, and connecting to MongoDB."
+    },
+    {
+      "category": "skills",
+      "subcategory": "frameworks_and_libraries",
+      "name": "React",
+      "proficiency": "intermediate",
+      "years_of_experience": 1,
+      "context": "I have built web frontends using React. I used it in my Chat App project for the web client. I am comfortable with hooks, state management, and component-based design."
+    },
+    {
+      "category": "skills",
+      "subcategory": "databases",
+      "name": "Firebase",
+      "proficiency": "expert",
+      "years_of_experience": 2,
+      "context": "I have used Firebase extensively — Firestore for real-time data, Firebase Auth for authentication, Firebase Storage for media, Firebase Crashlytics for crash reporting, and Firebase Cloud Messaging for push notifications. It is my go-to backend for Flutter apps."
+    },
+    {
+      "category": "skills",
+      "subcategory": "databases",
+      "name": "MongoDB",
+      "proficiency": "intermediate",
+      "years_of_experience": 1,
+      "context": "I use MongoDB as the database for Node.js backends. I have used it in the Chat App and Fiverr Clone projects. I am comfortable with schema design, CRUD operations, and Mongoose."
+    },
+    {
+      "category": "skills",
+      "subcategory": "databases",
+      "name": "Pinecone (Vector Database)",
+      "proficiency": "intermediate",
+      "years_of_experience": 1,
+      "context": "I have used Pinecone as a vector database for storing and retrieving embeddings. I used it in my Brick Image Similarity POC where I stored LLM-generated text descriptions of images as vectors and retrieved similar ones using semantic search. I also use it for my personal RAG-based AI assistant."
+    },
+    {
+      "category": "skills",
+      "subcategory": "ai_and_automation",
+      "name": "LLM Integration (GPT-4, Gemini)",
+      "proficiency": "intermediate",
+      "years_of_experience": 1,
+      "context": "I have integrated LLMs into real products. I used GPT-4 in Future Capsule for auto-generating intelligent content and in the Brick Image Similarity POC for extracting structured image descriptions. I have hands-on experience with prompt engineering and structured LLM outputs."
+    },
+    {
+      "category": "skills",
+      "subcategory": "ai_and_automation",
+      "name": "RAG (Retrieval-Augmented Generation)",
+      "proficiency": "intermediate",
+      "years_of_experience": 1,
+      "context": "I built a RAG-based personal AI assistant using Pinecone and Gemini. I understand how to chunk data, store embeddings with rich metadata, and retrieve context for LLM generation. I have also applied RAG concepts for image similarity search using text-based vectorization."
+    },
+    {
+      "category": "skills",
+      "subcategory": "ai_and_automation",
+      "name": "n8n (AI Workflow Automation)",
+      "proficiency": "beginner",
+      "years_of_experience": 1,
+      "context": "I explored AI automation using n8n and built workflows that combine APIs, AI content generation, and scheduling — including an Instagram automation pipeline."
+    },
+    {
+      "category": "skills",
+      "subcategory": "platform_integrations",
+      "name": "HealthKit (iOS) & Health Connect (Android)",
+      "proficiency": "intermediate",
+      "years_of_experience": 1,
+      "context": "I integrated both HealthKit and Health Connect in a production health app at Binstellar. This required deep understanding of platform-specific permissions, data types, and native behavior. I tested extensively on real devices."
+    },
+    {
+      "category": "skills",
+      "subcategory": "platform_integrations",
+      "name": "In-App Purchases (iOS & Android)",
+      "proficiency": "intermediate",
+      "years_of_experience": 1,
+      "context": "I implemented in-app purchases for both Android and iOS in a production health app. This involved setting up products in App Store Connect and Google Play Console, handling purchase flows, and managing subscription states."
+    },
+    {
+      "category": "skills",
+      "subcategory": "platform_integrations",
+      "name": "Passio SDK (AI Nutrition)",
+      "proficiency": "intermediate",
+      "years_of_experience": 1,
+      "context": "I integrated the Passio SDK for AI-based food recognition and nutritional analysis in a Flutter health app. The SDK uses on-device AI to identify food items from images and return nutritional data."
+    },
+    {
+      "category": "skills",
+      "subcategory": "dev_tools",
+      "name": "Git & GitHub",
+      "proficiency": "expert",
+      "years_of_experience": 2,
+      "context": "I use Git daily for version control. I am comfortable with branching, merging, pull requests, and resolving conflicts in a team environment."
+    },
+    {
+      "category": "skills",
+      "subcategory": "dev_tools",
+      "name": "Android Studio & VS Code",
+      "proficiency": "expert",
+      "years_of_experience": 2,
+      "context": "These are my primary IDEs. I use Android Studio for Flutter debugging and emulator management, and VS Code for Node.js and web development."
+    }
+  ],
+
+  "education": [
+    {
+      "category": "education",
+      "subcategory": "degree",
+      "institution": "Silver Oak University",
+      "location": "Ahmedabad, Gujarat",
+      "degree": "Bachelor of Technology in Computer Engineering",
+      "cgpa": 9.27,
+      "duration": "Sep 2021 - April 2025",
+      "story": "I completed my B.Tech in Computer Engineering with a CGPA of 9.27 at Silver Oak University. College gave me the foundation in data structures, algorithms, networking, and software engineering. But the real learning happened when I started applying those concepts in actual Flutter and Node.js projects alongside my studies. I treated college as a starting point, not the destination — I was always building something outside of the curriculum.",
+      "key_learnings": "Data structures, algorithms, software engineering principles, networking, database management, operating systems"
+    },
+    {
+      "category": "education",
+      "subcategory": "higher_secondary",
+      "institution": "Divya Brahmlok Global Academy",
+      "location": "Bhuj, Gujarat",
+      "degree": "Higher Secondary Certificate",
+      "percentage": "72%",
+      "duration": "June 2019 - May 2021",
+      "story": "I completed my higher secondary education in Bhuj. This is where I first got introduced to computers and programming basics. It sparked my curiosity about building software and pursuing engineering as a career."
+    }
+  ],
+
+  "experience": [
+    {
+      "category": "experience",
+      "subcategory": "full_time",
+      "role": "Flutter Developer",
+      "company": "Binstellar Technologies",
+      "location": "Ahmedabad, Gujarat",
+      "duration": "March 2025 - Present",
+      "type": "full_time",
+      "summary": "After completing my internship, I transitioned into a full-time Flutter Developer role at Binstellar Technologies. Unlike my internship where I built apps from scratch, this role required me to work on an already large and complex production codebase.",
+      "work_story": "In this role, I primarily worked on a health-based mobile application. It was a different experience than I expected — instead of greenfield development, I had to understand an existing system built by multiple developers over time, and carefully add new features without breaking existing functionality. This taught me a completely different set of skills than building from scratch.",
+      "responsibilities": [
+        "Integrated Android Health Connect and iOS HealthKit to track user health and activity data",
+        "Integrated Passio SDK for AI-based food recognition and nutritional analysis",
+        "Implemented in-app purchases for both Android and iOS platforms",
+        "Fixed production-level bugs and improved app stability",
+        "Handled app deployment on App Store and Google Play Store",
+        "Worked on platform-specific permission handling and native behavior"
+      ],
+      "challenges_faced": "The biggest challenge was working with platform-specific features like HealthKit and Health Connect. These require deep understanding of native platform behavior, permission models, and data types that differ significantly between iOS and Android. Another challenge was reading and modifying a large codebase I had not built myself, making changes without introducing regressions.",
+      "how_i_solved_it": "I spent significant time reading Apple and Google's official documentation for HealthKit and Health Connect. I tested every integration on real physical devices because emulators do not accurately replicate health data behavior. For working in the existing codebase, I made small, incremental changes and tested thoroughly before moving forward.",
+      "what_i_learned": "I learned how real-world production apps differ from personal projects. Production code has history, legacy decisions, and real users depending on it. I also learned how to handle platform-specific integrations professionally and how to be a reliable developer on an existing team without disrupting what already works."
+    },
+    {
+      "category": "experience",
+      "subcategory": "internship",
+      "role": "Intern",
+      "company": "Binstellar Technologies",
+      "location": "Ahmedabad, Gujarat",
+      "duration": "Sep 2023 - Feb 2025",
+      "type": "internship",
+      "summary": "My internship at Binstellar was where I transitioned from learning Flutter to building real production apps. I started with web development and then moved fully into Flutter for cross-platform mobile development.",
+      "work_story": "When I joined as an intern, I started with HTML, CSS, and Bootstrap for responsive web design. Within a few months, I was moved to Flutter development and assigned to real client projects. This is where I built Playscheme and Digital Pharmacy Platform — both published production apps. The internship was where I went from being a student who learned Flutter online to a developer who could own features and deliver production-quality work.",
+      "responsibilities": [
+        "Built responsive web pages using HTML, CSS, and Bootstrap",
+        "Transitioned to Flutter and built production mobile apps for iOS and Android",
+        "Implemented multi-role systems, real-time updates, and complex UI flows",
+        "Worked closely with senior developers on code reviews and architecture decisions",
+        "Mentored a junior developer on the Playscheme project",
+        "Handled App Store and Google Play Store deployments"
+      ],
+      "challenges_faced": "The biggest challenge was adapting to professional development. Working on real client projects with deadlines and real users was very different from personal learning projects. I also had to quickly learn patterns like BLoC architecture and Cubit state management under time pressure.",
+      "how_i_solved_it": "I spent extra time after work studying Flutter documentation, reading source code, and learning from code reviews. I asked questions constantly and made it a habit to understand the 'why' behind every pattern, not just the 'how'.",
+      "what_i_learned": "This internship shaped me from a self-taught developer into a professional one. I learned how to work in a team, communicate blockers early, read and contribute to existing codebases, and deliver features under real deadlines."
+    }
+  ],
+
+  "projects": [
+    {
+      "category": "projects",
+      "subcategory": "professional",
+      "type": "professional",
+      "name": "Child Engagement and Activity Management Platform",
+      "tech_stack": ["Flutter", "Firebase", "BLoC", "Dart"],
+      "duration": "During internship at Binstellar Technologies",
+      "platform": ["iOS", "Android"],
+      "published": true,
+      "stores": ["App Store", "Google Play Store"],
+      "links": {
+        "play_store": "https://play.google.com/store/apps/details?id=com.binstellar.dareplayscheme",
+        "app_store": "https://apps.apple.com/gb/app/dare-play-scheme/id6751529234",
+        "github": "",
+        "live_url": ""
+      },
+      "what_it_is": "A multi-role Flutter application built for a playscheme organization. What made this app complex was not just the features but the scale of role management — 5 different user types, each with a completely different interface, permissions, and data flow, all inside a single codebase.",
+      "why_i_built_it": "This was a client project assigned to me at Binstellar Technologies. The client needed a unified digital system to replace their manual coordination processes for managing children, staff, and attendance tracking.",
+      "story": "When I first saw the requirements, I was both excited and nervous. Five user roles in one app is not something you see in tutorials. I had to think carefully about architecture before writing a single line of code. I spent time planning how each role would have its own module, its own BLoC layer, and its own navigation flow — all sharing the same Firebase backend underneath.",
+      "tech_decisions": "I chose BLoC for state management because the complexity of role-based logic and multiple data streams needed a clear, structured approach. Firebase handled real-time data syncing across all roles seamlessly.",
+      "problems_faced": "Managing five completely different user journeys inside one codebase without creating a tangled mess was the core challenge. Early on, role logic was bleeding across modules making the code hard to follow and maintain. Another challenge was ensuring the UI worked well on both phones and tablets.",
+      "how_i_solved_it": "I restructured the app into strict feature modules — each role had its own folder, its own BLoC, and its own navigation. I used responsive layout builders for tablet support and implemented a split-view layout specifically for tablet users in the staff module.",
+      "what_i_learned": "This project taught me how critical architecture planning is before writing code. I also learned how to set up Firebase Crashlytics for production monitoring, manage complex role-based permission flows, and handle App Store and Google Play Store releases professionally.",
+      "mentoring": "I mentored a junior developer during this project, explaining BLoC patterns and reviewing their code, which helped accelerate delivery of key features."
+    },
+    {
+      "category": "projects",
+      "subcategory": "professional",
+      "type": "professional",
+      "name": "Digital Pharmacy Platform – Medicine & Lab Test Price Comparison App",
+      "tech_stack": ["Flutter", "Dart", "Firebase", "Pusher", "Cubit"],
+      "duration": "During internship at Binstellar Technologies",
+      "platform": ["iOS", "Android"],
+      "published": true,
+      "stores": ["App Store", "Google Play Store"],
+      "links": {
+        "play_store": "https://play.google.com/store/apps/details?id=com.binstellar.gomeds",
+        "app_store": "https://apps.apple.com/us/app/gomeds-24-7/id6755947115",
+        "github": "",
+        "live_url": ""
+      },
+      "what_it_is": "A mobile app that allows users to compare medicine and lab test prices across multiple partnered pharmacies and labs, helping them find the most affordable option near them.",
+      "why_i_built_it": "Client project at Binstellar. Medicine prices vary significantly across pharmacies and patients often overpay simply because they are not aware of cheaper alternatives nearby.",
+      "story": "This was my first production app and I made a lot of mistakes in the beginning that I learned from deeply. My initial instinct was to avoid using packages and build everything manually, thinking it would make the app more lightweight. That decision slowed me down significantly and led to unnecessary complexity. This project completely changed my mindset about software development.",
+      "tech_decisions": "After struggling with manual state management, I adopted Cubit — a lightweight version of BLoC — which gave me structured state handling without the overhead of full BLoC. I integrated Pusher for real-time price updates from partner pharmacies.",
+      "problems_faced": "Every real-time price update from Pusher was triggering a full list rebuild in the UI, causing visible lag when scrolling. My initial state management approach was too broad — any change anywhere caused everything to re-render.",
+      "how_i_solved_it": "I refactored the state management to use targeted Cubit states that only updated the specific item that had changed, rather than rebuilding the entire list. This required restructuring how state was emitted and consumed at the widget level.",
+      "what_i_learned": "This project shifted my mindset about development. Using the right tools matters more than building from scratch. I also learned how to think about UI performance at the data layer — which is something most junior developers overlook.",
+      "architecture": "Clean architecture with API handling, caching layer, and repository pattern for stable and fast functionality."
+    },
+    {
+      "category": "projects",
+      "subcategory": "professional",
+      "type": "professional",
+      "name": "Health App (Binstellar)",
+      "tech_stack": ["Flutter", "Dart", "HealthKit", "Health Connect", "Passio SDK", "In-App Purchases"],
+      "duration": "March 2025 - Present",
+      "platform": ["iOS", "Android"],
+      "published": true,
+      "stores": ["App Store", "Google Play Store"],
+      "links": {
+        "play_store": "https://play.google.com/store/apps/details?id=com.vitacoach.ai",
+        "app_store": "https://apps.apple.com/gb/app/vitacoach-ai/id6756865892",
+        "github": "",
+        "live_url": ""
+      },
+      "what_it_is": "A comprehensive health tracking mobile application that integrates with device health platforms to track user activity data and uses AI-powered food recognition for nutritional analysis.",
+      "why_i_built_it": "This was my primary project after transitioning to a full-time Flutter Developer role at Binstellar Technologies.",
+      "story": "This project was very different from anything I had built before. I was not building from scratch — I was stepping into a large, existing codebase built by multiple developers. I had to understand the existing architecture, respect the patterns already in place, and carefully add significant new features without breaking what already worked for real users.",
+      "tech_decisions": "HealthKit for iOS and Health Connect for Android were mandatory requirements since they are the standard platform-native health data APIs. Passio SDK was chosen for its on-device AI food recognition capability. In-app purchases were implemented using standard platform APIs.",
+      "problems_faced": "Platform-specific health integrations were far more complex than standard Flutter packages. HealthKit and Health Connect have different data models, different permission flows, and different behaviors that had to be handled separately. Testing was also harder because emulators do not simulate health data accurately. Understanding and modifying an existing large codebase without a full handover was another significant challenge.",
+      "how_i_solved_it": "I relied heavily on Apple and Google's official documentation and tested everything on real physical devices. For the existing codebase, I made small incremental changes, tested each one thoroughly, and traced existing code patterns carefully before adding anything new.",
+      "what_i_learned": "I learned how to integrate deeply platform-specific native features in Flutter, how production apps evolve over time, and how to be a responsible developer on a live product with real users depending on it."
+    },
+    {
+      "category": "projects",
+      "subcategory": "personal",
+      "type": "personal",
+      "name": "Future Capsule – Digital Time Capsule App",
+      "tech_stack": ["Flutter", "Firebase", "GetX", "Node.js", "GPT-4"],
+      "duration": "Personal project",
+      "platform": ["iOS", "Android"],
+      "published": false,
+      "links": {
+        "play_store": "",
+        "app_store": "",
+        "github": "",
+        "live_url": ""
+      },
+      "what_it_is": "A digital time capsule app where users can create capsules — collections of memories, messages, and photos — and schedule them to be unlocked at a specific future date. It supports sharing capsules with others, real-time syncing, and AI-generated content.",
+      "why_i_built_it": "I wanted to build something meaningful that combined AI with a real human experience. The idea of writing a letter to your future self or leaving a memory for someone felt like a genuinely useful and emotional product. I also wanted to challenge myself to build a complete product independently.",
+      "story": "This project is very special to me because every decision — from idea to architecture to deployment — was mine. There was no senior developer to ask, no existing codebase to follow. Just me figuring it out. It is the project that gave me real confidence in my abilities as a developer.",
+      "tech_decisions": "I used GetX because it made the development cycle faster for a solo project. Firebase handled real-time syncing and storage. I built a Node.js backend specifically for scheduled notifications because Firebase Cloud Messaging alone cannot handle future-date notification logic reliably.",
+      "problems_faced": "GPT-4 integration was harder than expected. The model was sometimes returning generic titles and descriptions that did not feel personal to the user's capsule. The other major challenge was scheduled notifications — I needed to send notifications at specific future dates, which Firebase cannot handle out of the box.",
+      "how_i_solved_it": "For GPT, I spent significant time on prompt engineering — giving the model context about the capsule type, the user's tone, and examples of good vs bad output. For notifications, I built a Node.js cron job that checks which capsules are due and fires notifications through Firebase Admin SDK at the right time.",
+      "what_i_learned": "I learned that AI output quality is almost entirely determined by how well you design the prompt. I also learned how to architect a complete product independently and how to solve problems that have no obvious solution by thinking from first principles."
+    },
+    {
+      "category": "projects",
+      "subcategory": "personal",
+      "type": "personal",
+      "name": "Chat App",
+      "tech_stack": ["Flutter", "React", "Node.js", "WebSocket", "MongoDB", "Dart"],
+      "duration": "Personal project",
+      "platform": ["iOS", "Android", "Web"],
+      "published": false,
+      "links": {
+        "play_store": "",
+        "app_store": "",
+        "github": "",
+        "live_url": ""
+      },
+      "what_it_is": "A real-time chat application with two separate frontends — React for web and Flutter for iOS/Android — both powered by the same Node.js backend using WebSocket for real-time messaging and MongoDB for storage.",
+      "why_i_built_it": "I wanted to challenge myself to build a true full-stack cross-platform product where the same backend serves two completely different clients. I also wanted to deeply understand how WebSocket works beyond just reading about it.",
+      "story": "This was my first real-time project and my first time building two frontends for one backend. The WebSocket debugging experience was one of the most frustrating and educational experiences I have had as a developer.",
+      "tech_decisions": "WebSocket over HTTP polling because it provides true bidirectional real-time communication. MongoDB for its flexibility with message schemas. Building both React and Flutter clients was intentional — I wanted to experience how each platform handles real-time data differently.",
+      "problems_faced": "The WebSocket connection kept disconnecting frequently and I could not figure out why for a long time. Another issue was message ordering when multiple users sent messages simultaneously.",
+      "how_i_solved_it": "After deep debugging and research, I discovered my local firewall was blocking persistent WebSocket connections after a timeout. Deploying the backend to a cloud server completely solved it. For message ordering, I added server-side timestamps and sorted messages on the client before rendering.",
+      "what_i_learned": "I learned that sometimes a bug has nothing to do with your code — environment and infrastructure matter. I also gained a strong understanding of WebSocket protocol internals and real-time sync challenges."
+    },
+    {
+      "category": "projects",
+      "subcategory": "learning",
+      "type": "learning",
+      "name": "Fiverr Clone",
+      "tech_stack": ["MongoDB", "Express", "React", "Node.js"],
+      "duration": "Learning project",
+      "platform": ["Web"],
+      "published": false,
+      "links": {
+        "play_store": "",
+        "app_store": "",
+        "github": "",
+        "live_url": ""
+      },
+      "what_it_is": "A Fiverr clone built with the MERN stack, replicating core marketplace features including user authentication, service listings, and a dynamic responsive UI.",
+      "why_i_built_it": "I built this to learn full-stack MERN development end-to-end in a structured way. I wanted to understand how a real marketplace product is built — how authentication, listings, and data management all connect together.",
+      "story": "I chose Fiverr as the reference because it has a clear and well-understood product flow. Building something familiar helped me focus on learning the technical patterns rather than figuring out product requirements.",
+      "tech_decisions": "MERN stack because it is a widely-used industry-standard combination and I wanted hands-on experience with all four technologies working together.",
+      "problems_faced": "JWT authentication was confusing at first — especially understanding token expiry, refresh logic, and how to protect routes on both the frontend and backend simultaneously.",
+      "how_i_solved_it": "I studied JWT deeply, implemented refresh token logic on the backend, and built a route guard in React that validates token state before rendering protected pages.",
+      "what_i_learned": "This project gave me confidence in full-stack JavaScript development. I learned how authentication flows work end-to-end, how to structure a scalable Express API, and how React and a Node.js backend communicate."
+    }
+  ],
+
+  "feature_projects": [
+    {
+      "category": "feature_projects",
+      "subcategory": "native_integration",
+      "name": "Browser URL Extraction via Native DLL",
+      "tech_stack": ["Node.js", "C#", "Windows DLL"],
+      "what_it_is": "A feature built for a desktop tracking application that extracts the active browser URL in real-time from any supported browser on Windows.",
+      "story": "I was building a desktop productivity tracking app using Electron and Node.js. One of the requirements was to track which websites the user was visiting in real-time. The problem was that Node.js has no way to access system-level browser data — it is sandboxed from the OS.",
+      "problem": "Node.js alone cannot access system-level data like the active URL in a running browser. There was no npm package that could do this reliably across all browsers. Every approach I tried from within JavaScript hit the same wall.",
+      "solution": "I stepped outside my comfort zone and learned just enough C# to build a native Windows DLL that could access browser window data through the Windows API. I then integrated this DLL into the Node.js application using native bindings, allowing the JavaScript layer to call into native Windows system functions.",
+      "what_i_learned": "This was one of the most satisfying problems I have solved. It taught me that sometimes the right solution requires going outside your primary language. I learned the basics of C#, how Windows DLLs work, and how to bridge native code with JavaScript through Node.js native bindings."
+    },
+    {
+      "category": "feature_projects",
+      "subcategory": "os_automation",
+      "name": "Auto Restart Tracker via Windows Scheduler",
+      "tech_stack": ["Node.js", "Windows Task Scheduler", "VBScript"],
+      "what_it_is": "A self-healing mechanism for a desktop tracking application that automatically restarts the app if it is closed by the user through Task Manager.",
+      "story": "The desktop tracking app I was building was supposed to run continuously. But users could simply open Task Manager and kill the process, defeating the purpose of the tracker entirely.",
+      "problem": "There is no way in a standard Node.js or Electron application to prevent a user from killing the process through Task Manager — the OS always allows this.",
+      "solution": "I could not prevent the app from being closed, so I changed my approach — instead of blocking the close, I made the app restart itself automatically. I wrote a VBScript that runs silently in the background and registered it with Windows Task Scheduler to trigger whenever the tracking app process is no longer detected.",
+      "what_i_learned": "This taught me a valuable problem-solving lesson: when you cannot solve a problem directly, find a creative workaround. I also learned OS-level automation and how Windows Task Scheduler works."
+    },
+    {
+      "category": "feature_projects",
+      "subcategory": "ai_image_search",
+      "name": "Brick Image Similarity Search (POC)",
+      "tech_stack": ["LLM Vision API", "Pinecone", "Node.js", "Vector Embeddings", "Text-to-Vector"],
+      "what_it_is": "A proof-of-concept system for finding visually similar brick images using LLM-generated text descriptions and vector similarity search — without training any custom ML model.",
+      "story": "The requirement was to build an image similarity search for brick images — given a query image, find the most similar bricks from a reference database. The obvious approach would be to train a visual similarity model. But I had only 10 to 15 reference images, which is nowhere near enough data to train a model accurately. I tried the traditional ML training approach and the results were poor and unreliable. I needed a completely different strategy.",
+      "problem": "Traditional image similarity or classification models require large datasets to train accurately. With only 10 to 15 brick images available, any trained model produced unreliable results. The challenge was to build a working similarity search system despite having very limited data.",
+      "solution": "I designed a creative workaround using LLMs and vector search instead of model training. For each reference brick image, I sent it to an LLM with vision capability and prompted it to describe the image in exhaustive detail — covering brick structure, surface texture, color tone, material type, size appearance, patterns, wear condition, and any other observable visual characteristics. This produced a rich, structured text description for each image. I then vectorized these text descriptions as embeddings and stored them in Pinecone with metadata linking back to the original image file. When a user wants to find similar bricks, they upload a query image. The LLM analyzes that image and generates a similarly detailed text description. I then vectorize that description and perform a semantic similarity search in Pinecone to find the closest matching descriptions — and therefore the most visually similar reference brick images.",
+      "what_i_learned": "This POC taught me that you do not always need a traditional ML pipeline for visual similarity problems. By converting visual information into rich semantic text using LLM vision and then applying vector similarity search, I built an effective image similarity system with almost no training data. It deepened my understanding of embeddings, vector databases, prompt design for structured extraction, and creative problem-solving when conventional approaches fail.",
+      "current_status": "Proof of concept completed with positive results. Accuracy depends on how detailed and consistent the LLM descriptions are, which is controlled through prompt design."
+    }
+  ],
+
+  "self_learning_projects": [
+    {
+      "category": "self_learning_projects",
+      "subcategory": "ai_automation",
+      "name": "Instagram Automation with AI Content Generation",
+      "tech_stack": ["n8n", "AI APIs", "Instagram Graph API", "Social media API"],
+      "what_it_is": "An automated workflow that fetches recent news, generates social media captions using AI, and posts them to Instagram automatically.",
+      "story": "I wanted to explore AI workflow automation tools and n8n seemed like a powerful visual automation platform. I built this as a self-learning experiment to understand how AI workflows can combine multiple APIs and services into fully automated pipelines.",
+      "what_i_learned": "I learned how n8n works for building complex multi-step automation workflows, how to use the Instagram Graph API for programmatic posting, and how AI content generation can be integrated into automated pipelines."
+    },
+    {
+      "category": "self_learning_projects",
+      "subcategory": "experimental_ux",
+      "name": "Haptic Trailer – Synchronized Vibration Experience",
+      "tech_stack": ["Flutter", "Dart"],
+      "what_it_is": "An experimental Flutter feature that synchronizes mobile device vibrations with video playback to create an immersive physical experience while watching a trailer.",
+      "story": "I was curious about how far mobile hardware can be pushed for user experience beyond just visuals and sound. I built this as a creative experiment to explore haptic feedback as a storytelling medium.",
+      "what_i_learned": "I explored hardware-level UX and how haptic feedback APIs work in Flutter. It taught me to think about user experience beyond screens and into physical interaction."
+    }
+  ],
+
+  "certifications": [
+    {
+      "category": "certifications",
+      "subcategory": "course_completion",
+      "name": "The Complete MERN Stack Developer Course",
+      "platform": "",
+      "year": "",
+      "what_i_learned": "This course gave me a structured understanding of building full-stack applications with MongoDB, Express, React, and Node.js. It directly helped me apply MERN skills in real projects like the Fiverr Clone and Chat App."
+    }
+  ],
+
+  "soft_skills": {
+    "category": "soft_skills",
+    "subcategory": "general",
+    "skills": ["Fast Learner", "Problem Solving", "Ownership", "Adaptability", "Teamwork", "Leadership"],
+    "stories": {
+      "fast_learner": "I transitioned from web development to Flutter during my internship within weeks and was contributing to production apps almost immediately. I also picked up C# with no prior experience just to solve a native integration problem that JavaScript alone could not handle.",
+      "problem_solving": "When I needed browser URL extraction in a Node.js app, I built a C# DLL and integrated it via native bindings — thinking outside the constraints of what JavaScript can do. When I could not train an image similarity model due to lack of data, I designed an LLM-based text vectorization approach as a creative workaround. When my tracking app could be killed from Task Manager, I used Windows Scheduler and VBScript to make it self-healing.",
+      "ownership": "Every project I have taken on — whether at Binstellar or personally — I treat as my own. I do not wait to be told what to do next. I identify gaps, propose solutions, and follow through end-to-end.",
+      "adaptability": "Every project has required picking up something new under real pressure — Pusher, GetX, WebSocket, GPT-4, HealthKit, Health Connect, Passio SDK, C#, n8n, Pinecone. I have adapted quickly each time without compromising on quality.",
+      "leadership": "I mentored a junior developer during the Playscheme project, explaining BLoC patterns, reviewing code, and helping accelerate feature delivery for the team.",
+      "teamwork": "At Binstellar I worked closely with design, backend, and QA teams. I learned that clear communication and understanding each team's constraints is as important as technical skill when delivering features reliably."
+    }
+  }
+}
