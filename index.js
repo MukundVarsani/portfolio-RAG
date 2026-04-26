@@ -43,6 +43,11 @@ app.delete('/api/delete', async (req, res) => {
 
 // 3. Ask Question
 app.post('/api/ask', async (req, res) => {
+
+    // curl -X POST http://localhost:3000/api/ask \
+    //  -H "Content-Type: application/json" \
+    //  -d '{"question": "What is your name?"}'
+
     try {
         const { question } = req.body;
 

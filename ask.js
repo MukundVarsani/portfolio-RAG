@@ -151,14 +151,34 @@ async function retrieve(userQuery) {
 // 5. Generation
 // ─────────────────────────────────────────────────────────────
 async function generate(userQuestion, context) {
-    const prompt = `
+//     const prompt = `
+// You are an AI assistant answering questions about ${CANDIDATE} based strictly on the provided context.
+
+// Rules:
+// - Use ONLY the provided context. Do not make up or assume any information.
+// - If the question asks to list items (projects, skills, links), list ALL of them found in the context — do not omit any.
+// - If a link value is "N/A" it means it is not available — say so clearly.
+// - If the answer is not in the context, say: "I don't have enough information to answer that."
+// - Be concise, direct, and factual.
+// - Answer in first person as if you are ${CANDIDATE} unless the question is clearly third-person.
+
+// CONTEXT:
+// ${context}
+
+// QUESTION:
+// ${userQuestion}
+
+// ANSWER:
+// `.trim();
+
+const prompt = `
 You are an AI assistant answering questions about ${CANDIDATE} based strictly on the provided context.
 
 Rules:
 - Use ONLY the provided context. Do not make up or assume any information.
 - If the question asks to list items (projects, skills, links), list ALL of them found in the context — do not omit any.
-- If a link value is "N/A" it means it is not available — say so clearly.
-- If the answer is not in the context, say: "I don't have enough information to answer that."
+- If a link value is "" or missing, set it to null.
+- If the answer is not in the context, respond with type "text" and say: "I don't have enough information to answer that."
 - Be concise, direct, and factual.
 - Answer in first person as if you are ${CANDIDATE} unless the question is clearly third-person.
 
@@ -168,7 +188,31 @@ ${context}
 QUESTION:
 ${userQuestion}
 
-ANSWER:
+RESPONSE FORMAT:
+Return ONLY a valid JSON object. No markdown, no code blocks, no extra text.
+
+Choose the most appropriate response type from below:
+
+1. Simple answer → { "type": "text", "content": "..." }
+
+2. Bullet list → { "type": "list", "title": "...", "items": ["...", "..."] }
+
+3. Key-value pairs (e.g. contact info, profile) →
+   { "type": "keyvalue", "title": "...", "items": [{ "key": "...", "value": "...", "link": null }] }
+
+4. Cards (e.g. projects, experience) →
+   { "type": "cards", "title": "...", "items": [{ "title": "...", "subtitle": "...", "description": "...", "tags": ["..."], "links": [{ "label": "...", "url": "..." }] }] }
+
+5. Skills with levels →
+   { "type": "skills", "title": "...", "items": [{ "name": "...", "level": "expert|intermediate|beginner", "years": 2 }] }
+
+6. Timeline (experience/education) →
+   { "type": "timeline", "title": "...", "items": [{ "title": "...", "subtitle": "...", "date": "...", "description": "...", "tags": ["..."] }] }
+
+7. Stats / highlights →
+   { "type": "stats", "title": "...", "items": [{ "label": "...", "value": "..." }] }
+
+Pick the type that best fits the question. Prefer "cards" for projects, "skills" for skills, "timeline" for experience/education, "stats" for summary numbers, "keyvalue" for contact/profile info, "list" for simple enumerations, "text" for everything else.
 `.trim();
 
     const response = await ai.models.generateContent({
@@ -198,7 +242,7 @@ async function ask(userQuestion) {
     
     // console.log('\n════════════════════════════════');
     // console.log(answer);
-    return `Answer for: ${answer}`;
+    return `${answer}`;
     // console.log('════════════════════════════════\n');
 }
 
