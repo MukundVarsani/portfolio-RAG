@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 import { ingestData, deleteAllDataFromIndex } from './injest_data.js';
 import { ask } from './ask.js';
 
@@ -7,6 +8,12 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
+
+// CORS Middleware
+app.use(cors({
+    origin: true, // Reflects the request origin, allowing any origin
+    credentials: true, // Allows sending cookies and authorization headers
+}));
 
 // ─────────────────────────────────────────────────────────────
 // Routes
