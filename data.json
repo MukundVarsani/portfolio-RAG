@@ -6,7 +6,6 @@
     "purpose": "Highly detailed personal knowledge base for RAG-based AI assistant, resume generation, and interview storytelling",
     "note": "Everything is written in first-person, deeply descriptive, and focused on real experiences, challenges, and learnings."
   },
-
   "personal_info": {
     "category": "personal_info",
     "subcategory": "general",
@@ -27,7 +26,6 @@
     ],
     "open_to_remote": true
   },
-
   "skills": [
     {
       "category": "skills",
@@ -190,7 +188,6 @@
       "context": "These are my primary IDEs. I use Android Studio for Flutter debugging and emulator management, and VS Code for Node.js and web development."
     }
   ],
-
   "education": [
     {
       "category": "education",
@@ -214,7 +211,6 @@
       "story": "I completed my higher secondary education in Bhuj. This is where I first got introduced to computers and programming basics. It sparked my curiosity about building software and pursuing engineering as a career."
     }
   ],
-
   "experience": [
     {
       "category": "experience",
@@ -261,18 +257,28 @@
       "what_i_learned": "This internship shaped me from a self-taught developer into a professional one. I learned how to work in a team, communicate blockers early, read and contribute to existing codebases, and deliver features under real deadlines."
     }
   ],
-
   "projects": [
     {
       "category": "projects",
       "subcategory": "professional",
       "type": "professional",
       "name": "Child Engagement and Activity Management Platform",
-      "tech_stack": ["Flutter", "Firebase", "BLoC", "Dart"],
+      "tech_stack": [
+        "Flutter",
+        "Firebase",
+        "BLoC",
+        "Dart"
+      ],
       "duration": "During internship at Binstellar Technologies",
-      "platform": ["iOS", "Android"],
+      "platform": [
+        "iOS",
+        "Android"
+      ],
       "published": true,
-      "stores": ["App Store", "Google Play Store"],
+      "stores": [
+        "App Store",
+        "Google Play Store"
+      ],
       "links": {
         "play_store": "https://play.google.com/store/apps/details?id=com.binstellar.dareplayscheme",
         "app_store": "https://apps.apple.com/gb/app/dare-play-scheme/id6751529234",
@@ -293,14 +299,26 @@
       "subcategory": "professional",
       "type": "professional",
       "name": "Digital Pharmacy Platform – Medicine & Lab Test Price Comparison App",
-      "tech_stack": ["Flutter", "Dart", "Firebase", "Pusher", "Cubit"],
+      "tech_stack": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Pusher",
+        "Cubit"
+      ],
       "duration": "During internship at Binstellar Technologies",
-      "platform": ["iOS", "Android"],
+      "platform": [
+        "iOS",
+        "Android"
+      ],
       "published": true,
-      "stores": ["App Store", "Google Play Store"],
+      "stores": [
+        "App Store",
+        "Google Play Store"
+      ],
       "links": {
         "play_store": "https://play.google.com/store/apps/details?id=com.binstellar.gomeds",
-        "app_store": "https://apps.apple.com/us/app/gomeds-24-7/id6755947115",
+        "app_store": "https://apps.apple.com/in/app/gomeds-24-7/id6755947115",
         "github": "",
         "live_url": ""
       },
@@ -318,11 +336,24 @@
       "subcategory": "professional",
       "type": "professional",
       "name": "Health App (Binstellar)",
-      "tech_stack": ["Flutter", "Dart", "HealthKit", "Health Connect", "Passio SDK", "In-App Purchases"],
+      "tech_stack": [
+        "Flutter",
+        "Dart",
+        "HealthKit",
+        "Health Connect",
+        "Passio SDK",
+        "In-App Purchases"
+      ],
       "duration": "March 2025 - Present",
-      "platform": ["iOS", "Android"],
+      "platform": [
+        "iOS",
+        "Android"
+      ],
       "published": true,
-      "stores": ["App Store", "Google Play Store"],
+      "stores": [
+        "App Store",
+        "Google Play Store"
+      ],
       "links": {
         "play_store": "https://play.google.com/store/apps/details?id=com.vitacoach.ai",
         "app_store": "https://apps.apple.com/gb/app/vitacoach-ai/id6756865892",
@@ -340,11 +371,44 @@
     {
       "category": "projects",
       "subcategory": "personal",
+      "name": "Android Haptic Demo",
+      "tech_stack": [
+        "Flutter",
+        "Dart",
+        "Android Native APIs",
+        "Haptic Feedback"
+      ],
+      "duration": "Personal project",
+      "platform": [
+        "Android"
+      ],
+      "published": false,
+      "links": {
+        "apk_url": "https://drive.google.com/file/d/1MTxDQMZizXW24a6_jXzVi1DaqrNr2_iI/view?usp=sharing",
+        "github": "",
+        "live_url": ""
+      },
+      "what_it_is": "A self-learning Android application built to experiment with advanced haptic feedback patterns and device vibration behaviors using Flutter and Android native APIs.",
+      "story": "I built this project purely for learning purposes because I wanted to understand how haptic feedback works internally on Android devices beyond the basic vibration APIs available in Flutter packages. I explored different vibration strengths, timing patterns, and user interaction feedback mechanisms to see how modern apps create more immersive touch experiences.",
+      "what_i_learned": "Through this project, I learned how Flutter communicates with Android native APIs, how haptic feedback differs across Android versions and device manufacturers, and how to create better user experiences using tactile feedback. I also learned the limitations of emulator testing and why real-device testing is important for hardware-related features."
+    },
+    {
+      "category": "projects",
+      "subcategory": "personal",
       "type": "personal",
       "name": "Future Capsule – Digital Time Capsule App",
-      "tech_stack": ["Flutter", "Firebase", "GetX", "Node.js", "GPT-4"],
+      "tech_stack": [
+        "Flutter",
+        "Firebase",
+        "GetX",
+        "Node.js",
+        "GPT-4"
+      ],
       "duration": "Personal project",
-      "platform": ["iOS", "Android"],
+      "platform": [
+        "iOS",
+        "Android"
+      ],
       "published": false,
       "links": {
         "play_store": "",
@@ -365,9 +429,20 @@
       "subcategory": "personal",
       "type": "personal",
       "name": "Chat App",
-      "tech_stack": ["Flutter", "React", "Node.js", "WebSocket", "MongoDB", "Dart"],
+      "tech_stack": [
+        "Flutter",
+        "React",
+        "Node.js",
+        "WebSocket",
+        "MongoDB",
+        "Dart"
+      ],
       "duration": "Personal project",
-      "platform": ["iOS", "Android", "Web"],
+      "platform": [
+        "iOS",
+        "Android",
+        "Web"
+      ],
       "published": false,
       "links": {
         "play_store": "",
@@ -388,9 +463,16 @@
       "subcategory": "learning",
       "type": "learning",
       "name": "Fiverr Clone",
-      "tech_stack": ["MongoDB", "Express", "React", "Node.js"],
+      "tech_stack": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js"
+      ],
       "duration": "Learning project",
-      "platform": ["Web"],
+      "platform": [
+        "Web"
+      ],
       "published": false,
       "links": {
         "play_store": "",
@@ -407,13 +489,16 @@
       "what_i_learned": "This project gave me confidence in full-stack JavaScript development. I learned how authentication flows work end-to-end, how to structure a scalable Express API, and how React and a Node.js backend communicate."
     }
   ],
-
   "feature_projects": [
     {
       "category": "feature_projects",
       "subcategory": "native_integration",
       "name": "Browser URL Extraction via Native DLL",
-      "tech_stack": ["Node.js", "C#", "Windows DLL"],
+      "tech_stack": [
+        "Node.js",
+        "C#",
+        "Windows DLL"
+      ],
       "what_it_is": "A feature built for a desktop tracking application that extracts the active browser URL in real-time from any supported browser on Windows.",
       "story": "I was building a desktop productivity tracking app using Electron and Node.js. One of the requirements was to track which websites the user was visiting in real-time. The problem was that Node.js has no way to access system-level browser data — it is sandboxed from the OS.",
       "problem": "Node.js alone cannot access system-level data like the active URL in a running browser. There was no npm package that could do this reliably across all browsers. Every approach I tried from within JavaScript hit the same wall.",
@@ -424,7 +509,11 @@
       "category": "feature_projects",
       "subcategory": "os_automation",
       "name": "Auto Restart Tracker via Windows Scheduler",
-      "tech_stack": ["Node.js", "Windows Task Scheduler", "VBScript"],
+      "tech_stack": [
+        "Node.js",
+        "Windows Task Scheduler",
+        "VBScript"
+      ],
       "what_it_is": "A self-healing mechanism for a desktop tracking application that automatically restarts the app if it is closed by the user through Task Manager.",
       "story": "The desktop tracking app I was building was supposed to run continuously. But users could simply open Task Manager and kill the process, defeating the purpose of the tracker entirely.",
       "problem": "There is no way in a standard Node.js or Electron application to prevent a user from killing the process through Task Manager — the OS always allows this.",
@@ -435,7 +524,13 @@
       "category": "feature_projects",
       "subcategory": "ai_image_search",
       "name": "Brick Image Similarity Search (POC)",
-      "tech_stack": ["LLM Vision API", "Pinecone", "Node.js", "Vector Embeddings", "Text-to-Vector"],
+      "tech_stack": [
+        "LLM Vision API",
+        "Pinecone",
+        "Node.js",
+        "Vector Embeddings",
+        "Text-to-Vector"
+      ],
       "what_it_is": "A proof-of-concept system for finding visually similar brick images using LLM-generated text descriptions and vector similarity search — without training any custom ML model.",
       "story": "The requirement was to build an image similarity search for brick images — given a query image, find the most similar bricks from a reference database. The obvious approach would be to train a visual similarity model. But I had only 10 to 15 reference images, which is nowhere near enough data to train a model accurately. I tried the traditional ML training approach and the results were poor and unreliable. I needed a completely different strategy.",
       "problem": "Traditional image similarity or classification models require large datasets to train accurately. With only 10 to 15 brick images available, any trained model produced unreliable results. The challenge was to build a working similarity search system despite having very limited data.",
@@ -444,13 +539,17 @@
       "current_status": "Proof of concept completed with positive results. Accuracy depends on how detailed and consistent the LLM descriptions are, which is controlled through prompt design."
     }
   ],
-
   "self_learning_projects": [
     {
       "category": "self_learning_projects",
       "subcategory": "ai_automation",
       "name": "Instagram Automation with AI Content Generation",
-      "tech_stack": ["n8n", "AI APIs", "Instagram Graph API", "Social media API"],
+      "tech_stack": [
+        "n8n",
+        "AI APIs",
+        "Instagram Graph API",
+        "Social media API"
+      ],
       "what_it_is": "An automated workflow that fetches recent news, generates social media captions using AI, and posts them to Instagram automatically.",
       "story": "I wanted to explore AI workflow automation tools and n8n seemed like a powerful visual automation platform. I built this as a self-learning experiment to understand how AI workflows can combine multiple APIs and services into fully automated pipelines.",
       "what_i_learned": "I learned how n8n works for building complex multi-step automation workflows, how to use the Instagram Graph API for programmatic posting, and how AI content generation can be integrated into automated pipelines."
@@ -459,13 +558,15 @@
       "category": "self_learning_projects",
       "subcategory": "experimental_ux",
       "name": "Haptic Trailer – Synchronized Vibration Experience",
-      "tech_stack": ["Flutter", "Dart"],
+      "tech_stack": [
+        "Flutter",
+        "Dart"
+      ],
       "what_it_is": "An experimental Flutter feature that synchronizes mobile device vibrations with video playback to create an immersive physical experience while watching a trailer.",
       "story": "I was curious about how far mobile hardware can be pushed for user experience beyond just visuals and sound. I built this as a creative experiment to explore haptic feedback as a storytelling medium.",
       "what_i_learned": "I explored hardware-level UX and how haptic feedback APIs work in Flutter. It taught me to think about user experience beyond screens and into physical interaction."
     }
   ],
-
   "certifications": [
     {
       "category": "certifications",
@@ -476,11 +577,17 @@
       "what_i_learned": "This course gave me a structured understanding of building full-stack applications with MongoDB, Express, React, and Node.js. It directly helped me apply MERN skills in real projects like the Fiverr Clone and Chat App."
     }
   ],
-
   "soft_skills": {
     "category": "soft_skills",
     "subcategory": "general",
-    "skills": ["Fast Learner", "Problem Solving", "Ownership", "Adaptability", "Teamwork", "Leadership"],
+    "skills": [
+      "Fast Learner",
+      "Problem Solving",
+      "Ownership",
+      "Adaptability",
+      "Teamwork",
+      "Leadership"
+    ],
     "stories": {
       "fast_learner": "I transitioned from web development to Flutter during my internship within weeks and was contributing to production apps almost immediately. I also picked up C# with no prior experience just to solve a native integration problem that JavaScript alone could not handle.",
       "problem_solving": "When I needed browser URL extraction in a Node.js app, I built a C# DLL and integrated it via native bindings — thinking outside the constraints of what JavaScript can do. When I could not train an image similarity model due to lack of data, I designed an LLM-based text vectorization approach as a creative workaround. When my tracking app could be killed from Task Manager, I used Windows Scheduler and VBScript to make it self-healing.",

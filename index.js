@@ -56,7 +56,7 @@ app.post('/api/ask', async (req, res) => {
         }
 
         const answer = await ask(question);
-        
+
         if (!answer) {
             return res.status(404).json({ error: 'No relevant context found to answer the question.' });
         }
@@ -69,12 +69,14 @@ app.post('/api/ask', async (req, res) => {
 });
 
 app.get('/', async (req, res) => {
-    res.json({message : "Hello World"});
+    res.json({ message: "Hello World" });
 });
 
 // ─────────────────────────────────────────────────────────────
 // Start Server
 // ─────────────────────────────────────────────────────────────
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
+    // await ingestData();
+    // await deleteAllDataFromIndex();
     console.log(`🚀 Server is running on http://localhost:${PORT}`);
 });
